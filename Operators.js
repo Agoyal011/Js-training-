@@ -71,4 +71,21 @@ console.log(c);
     console.log("Condition is", !cond1)
 };
 
+// Conditional Statements 
+
+// Type 1- If statement 
+
+
+     let marks = 13; 
+
+     
+     if ( marks%2===0) {
+        console.log("Number is even");
+     }
+
+     else {
+
+        console.log("Number is Odd");
+     }
+
 
