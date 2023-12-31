@@ -79,13 +79,27 @@ console.log(c);
      let marks = 13; 
 
      
-     if ( marks%2===0) {
+     if ( marks % 2===0) {
         console.log("Number is even");
      }
 
      else {
-
-        console.log("Number is Odd");
+        console.log("Number is odd")
      }
 
+// Type 3- Else-if Statment 
+
+let age = 19; 
+
+if( age<18 ){
+    console.log("The person is Junior ")
+}
+
+else if( age>60) {
+    console.log("The person is senior") 
+}
+
+else {
+    console.log("The person is middle aged")
+}
 
