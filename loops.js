@@ -34,10 +34,35 @@ while(i <=20)
 // EXCEPTION 
 
 // Loop will atleast run once
+// There is a semi- colon in the end in do-while loop 
 
 let d=20
 do { 
 console.log("My name is Aniket ")
 d++
 }
-while (d<=30)
+while (d<=30);
+
+// for-of loop ( New loop in Javascript) ( USED FOR CHARACTERS AND STRINGS)
+
+let str= "Aniket Goyal"; 
+
+for (let i of str){
+console.log("Values of i are :",i)
+}
+
+
+// for-in loop ( Used for objects ) Return keys of objects
+
+let people ={
+name: "Aniket Goyal ", 
+age: 23,
+cgpa: 7.6, 
+isPass: true,
+}; 
+
+// Now we have to put the loop on this student object 
+
+for ( let key in people){
+    console.log(key); 
+}
