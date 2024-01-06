@@ -66,3 +66,46 @@ isPass: true,
 for ( let key in people){
     console.log(key); 
 }
+
+
+
+// Print all even numbers from zero to hundred and odd nunmbers consectively 
+
+// print 0,2 4 ,6... // odd numbers 1,3,5... .
+
+
+
+for ( let n=0; n<=100; n++ )
+
+{
+
+
+
+if ( n % 2===0)
+{
+    console.log("All even numbers are", n);
+}
+
+else {
+    console.log("  odd numbers are : ", n); 
+}
+
+}
+
+
+// Random no question guessing a given randon value by the user 
+
+let gamNum= 25; 
+
+
+let number= prompt(" Guess the gamenumber : ");
+
+console.log(number); 
+
+while( gamNum!= number){
+
+let number= console.log("Number entered was wrong, enter the number again: ")
+}
+
+console.log(" Number entered was right")
+
