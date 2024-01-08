@@ -95,7 +95,7 @@ else {
 
 // Random no question guessing a given randon value by the user 
 
-let gamNum= 25; 
+/*let gamNum= 25; 
 
 
 let number= prompt(" Guess the gamenumber : ");
@@ -108,4 +108,4 @@ let number= console.log("Number entered was wrong, enter the number again: ")
 }
 
 console.log(" Number entered was right")
-
+*/
